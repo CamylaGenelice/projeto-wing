@@ -56,7 +56,7 @@ def verifica (a,b):
             lista_p.append(c)
         else:
             lista_i.append(c)
-    # Removendo os numeros duplicados, transformando a lista em dicionário e transformando o dicionário em lista novamente
+    # Removendo os numeros duplicados. Transformando a lista em dicionário e transformando o dicionário em lista novamente.
     # Não usei a função set() pois a função altera a ordem dos elementos, e eu não quero isso.
     convert_dic_lista1 = list(dict.fromkeys(lista_p))
     convert_dic_lista2 = list(dict.fromkeys(lista_i))
